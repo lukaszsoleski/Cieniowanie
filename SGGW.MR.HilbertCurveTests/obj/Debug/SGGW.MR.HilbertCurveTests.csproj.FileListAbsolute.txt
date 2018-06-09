@@ -1,0 +1,16 @@
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\SGGW.MR.HilbertCurveTests.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\SGGW.MR.HilbertCurveTests.pdb
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\SGGW.MR.HilbertCurve.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\SGGW.MR.HilbertCurve.pdb
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\obj\Debug\SGGW.MR.HilbertCurveTests.csprojResolveAssemblyReference.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\obj\Debug\SGGW.MR.HilbertCurveTests.csproj.CoreCompileInputs.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\obj\Debug\SGGW.MR.HilbertCurveTests.csproj.CopyComplete
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\obj\Debug\SGGW.MR.HilbertCurveTests.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurveTests\obj\Debug\SGGW.MR.HilbertCurveTests.pdb

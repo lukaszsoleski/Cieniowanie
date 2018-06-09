@@ -1,0 +1,10 @@
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\bin\Debug\SGGW.MR.Application.exe.config
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\bin\Debug\SGGW.MR.Application.exe
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\bin\Debug\SGGW.MR.Application.pdb
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\obj\Debug\SGGW.MR.Application.csprojResolveAssemblyReference.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\obj\Debug\SGGW.MR.Application.Cieniowanie.resources
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\obj\Debug\SGGW.MR.Application.Properties.Resources.resources
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\obj\Debug\SGGW.MR.Application.csproj.GenerateResource.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\obj\Debug\SGGW.MR.Application.csproj.CoreCompileInputs.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\obj\Debug\SGGW.MR.Application.exe
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.Application\obj\Debug\SGGW.MR.Application.pdb

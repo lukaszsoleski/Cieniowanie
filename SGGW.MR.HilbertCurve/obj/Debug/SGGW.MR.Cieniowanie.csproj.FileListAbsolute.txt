@@ -1,0 +1,6 @@
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurve\bin\Debug\SGGW.MR.HilbertCurve.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurve\bin\Debug\SGGW.MR.HilbertCurve.pdb
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurve\obj\Debug\SGGW.MR.Cieniowanie.csprojResolveAssemblyReference.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurve\obj\Debug\SGGW.MR.Cieniowanie.csproj.CoreCompileInputs.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurve\obj\Debug\SGGW.MR.HilbertCurve.dll
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\SGGW.MR.HilbertCurve\obj\Debug\SGGW.MR.HilbertCurve.pdb

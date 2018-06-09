@@ -1,0 +1,7 @@
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\bin\Debug\Hilbert_curv_test.exe.config
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\bin\Debug\Hilbert_curv_test.exe
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\bin\Debug\Hilbert_curv_test.pdb
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\obj\Debug\WorkFlowTestowy.csprojResolveAssemblyReference.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\obj\Debug\WorkFlowTestowy.csproj.CoreCompileInputs.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\obj\Debug\Hilbert_curv_test.exe
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\obj\Debug\Hilbert_curv_test.pdb

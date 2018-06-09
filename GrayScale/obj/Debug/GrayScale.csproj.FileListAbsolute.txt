@@ -1,0 +1,10 @@
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\obj\Debug\GrayScale.csprojResolveAssemblyReference.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\obj\Debug\GrayScale.Form1.resources
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\obj\Debug\GrayScale.Properties.Resources.resources
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\obj\Debug\GrayScale.csproj.GenerateResource.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\obj\Debug\GrayScale.csproj.CoreCompileInputs.cache
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\bin\Debug\GrayScale.exe.config
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\bin\Debug\GrayScale.exe
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\bin\Debug\GrayScale.pdb
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\obj\Debug\GrayScale.exe
+C:\Users\Luckz\Documents\Visual Studio 2017\Projects\Hilbert_curv_test\GrayScale\obj\Debug\GrayScale.pdb
