@@ -7,7 +7,7 @@ namespace SGGW.MR.Application
     using System.Linq;
     using System.Threading.Tasks;
     using System.Windows.Forms;
-
+    using SGGW.MR.Cieniowanie;
     static class Program
     {
 
@@ -20,6 +20,7 @@ namespace SGGW.MR.Application
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Cieniowanie());
+
         }
     }
 }

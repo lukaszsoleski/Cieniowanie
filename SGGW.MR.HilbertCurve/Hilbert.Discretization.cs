@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SGGW.MR.Cienowanie
+namespace SGGW.MR.Cieniowanie
 {
   static public partial class Hilbert
     {
@@ -30,8 +30,8 @@ namespace SGGW.MR.Cienowanie
 
                 }else
                 {
-                    int index = set.Count + 1;
-                    // track the index of the next first occured distinct element
+                    int index = set.Count;
+                    // track the index of the next first occurrence
                     set.Add(coord[i], index);
                     
                     result[i] = index;

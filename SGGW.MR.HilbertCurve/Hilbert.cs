@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 
 
-namespace SGGW.MR.Cienowanie
+namespace SGGW.MR.Cieniowanie
 {
    
 
    static public partial class Hilbert
     {
-
+       // public static int initial_list_size;
         private static Curve cur_curve;
         public static Curve CurvePoints(int depth)
         {
@@ -107,8 +107,8 @@ namespace SGGW.MR.Cienowanie
         public int Length { get { return X.Count; } }
         public Curve()
         {
-            this.X = new List<double> { 0.0 };
-            this.Y = new List<double> { 0.0 };
+            this.X = new List<double>() { 0.0 };
+            this.Y = new List<double> (){ 0.0 };
         }
 
         public void Scale(double num)

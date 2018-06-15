@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGGW.MR.Cieniowanie", "SGGW.MR.HilbertCurve\SGGW.MR.Cieniowanie.csproj", "{86000090-04CE-4E96-AEFF-F68403C16F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGGW.MR.CieniowanieTests", "SGGW.MR.HilbertCurveTests\SGGW.MR.CieniowanieTests.csproj", "{531F09C5-1EA0-4364-AE06-9E153E96FFD7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGGW.MR.Application", "SGGW.MR.Application\SGGW.MR.Application.csproj", "{B9D5108D-99DC-4914-A75C-18C09A00F18A}"
 EndProject
 Global
@@ -19,10 +17,6 @@ Global
 		{86000090-04CE-4E96-AEFF-F68403C16F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86000090-04CE-4E96-AEFF-F68403C16F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86000090-04CE-4E96-AEFF-F68403C16F7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{531F09C5-1EA0-4364-AE06-9E153E96FFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{531F09C5-1EA0-4364-AE06-9E153E96FFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{531F09C5-1EA0-4364-AE06-9E153E96FFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{531F09C5-1EA0-4364-AE06-9E153E96FFD7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B9D5108D-99DC-4914-A75C-18C09A00F18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9D5108D-99DC-4914-A75C-18C09A00F18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9D5108D-99DC-4914-A75C-18C09A00F18A}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -4,16 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Drawing; 
-namespace SGGW.MR.Cienowanie
+namespace SGGW.MR.Cieniowanie
 {
      public class RGB2GrayScale
      {
-        /*
-         1. Take the RGB value of the pixel.
-         2. Do math.
-         3. Replace the R, G and B value of the pixel with Avg.
-    
-        */
 
         public Bitmap BitmapImage { get; set; }
 
@@ -65,8 +59,7 @@ namespace SGGW.MR.Cienowanie
                     int g = p.G;
                     int b = p.B;
 
-                    //algorith called 'luma' . It's less dirty then simple average
-                    // human eye see differently  red green and blue colors
+                    //algorithm called 'luma' is less dirty then simple average
                     int gray = (int)((r * .3) + (g * .59) + (b * .11));
 
                     //set new pixel value
