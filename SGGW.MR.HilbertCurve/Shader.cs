@@ -31,6 +31,7 @@ namespace SGGW.MR.Cieniowanie
             int longerSide = (bitmap.Height > bitmap.Width) ? bitmap.Height : bitmap.Width;
             // depth of hilber curve
             int depth = (int)Math.Ceiling(Math.Log(longerSide,2.0));
+            Curve.initial_size = 2 << depth-1;
             // Represents hilbert curve coordinates
             Curve curve = Hilbert.Discretization(depth);
             

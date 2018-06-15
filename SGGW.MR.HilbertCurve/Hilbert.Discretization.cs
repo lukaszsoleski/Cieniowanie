@@ -18,7 +18,7 @@ namespace SGGW.MR.Cieniowanie
         }
       private static List<double> Discretize( List<double> coord)
         {
-            Dictionary<double,int> set = new Dictionary<double, int>();
+            Dictionary<double,int> set = new Dictionary<double, int>(capacity:Curve.initial_size);
             double [] result = new double[coord.Count];// initialize capacity
 
             for (int i = 0; i < coord.Count; i++)

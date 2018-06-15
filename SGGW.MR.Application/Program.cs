@@ -17,9 +17,10 @@ namespace SGGW.MR.Application
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Cieniowanie());
+               Application.EnableVisualStyles();
+               Application.SetCompatibleTextRenderingDefault(false);
+               Application.Run(new Cieniowanie());
+            
 
         }
     }

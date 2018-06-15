@@ -85,11 +85,11 @@ namespace SGGW.MR.Cieniowanie
         /// <summary>
         /// Lighter color for shading.
         /// </summary>
-        public static Color Color1 { get; set; }
+        public static Color Color1 { get; set; } = Color.White;
         /// <summary>
         /// Darker color for shading
         /// </summary>
-        public static Color Color2 { get; set; }
+        public static Color Color2 { get; set; } = Color.Black;
 
 
         /// <summary>

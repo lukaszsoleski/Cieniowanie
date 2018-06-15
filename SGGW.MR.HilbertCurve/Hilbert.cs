@@ -12,7 +12,7 @@ namespace SGGW.MR.Cieniowanie
 
    static public partial class Hilbert
     {
-       // public static int initial_list_size;
+      
         private static Curve cur_curve;
         public static Curve CurvePoints(int depth)
         {
@@ -43,7 +43,7 @@ namespace SGGW.MR.Cieniowanie
         #region new coordinates of points
         private static List<double> CalcXCoordinates(Curve prev)
         {
-            List<double> XCoordinates = new List<double>();
+            List<double> XCoordinates = new List<double>(Curve.initial_size);
             XCoordinates.AddRange(IncreaseValues(prev.Y, -0.5));
             XCoordinates.AddRange(IncreaseValues(prev.X, -0.5));
             XCoordinates.AddRange(IncreaseValues(prev.X, 0.5));
@@ -55,7 +55,7 @@ namespace SGGW.MR.Cieniowanie
 
         private static List<double> CalcYCoordinates(Curve prev)
         {
-            List<double> YCoordinates = new List<double>();
+            List<double> YCoordinates = new List<double>(Curve.initial_size);
 
             YCoordinates.AddRange(IncreaseValues(prev.X, -0.5));
 
@@ -71,23 +71,24 @@ namespace SGGW.MR.Cieniowanie
         #region HelperMethods
         private static ICollection<double> DecreaseValues(List<double> X, double num)
         {
-            ICollection<double> values = new List<double>();
+            ICollection<double> values = new List<double>(Curve.initial_size);
             for (int i = 0; i < X.Count; i++)
             {
                 values.Add(num - X[i]);
+                
             }
             return values;
         }
 
         private static ICollection<double> IncreaseValues(List<double> X, double num)
         {
-            ICollection<double> values = new List<double>();
+            ICollection<double> values = new List<double>(Curve.initial_size);
 
             for (int i = 0; i < X.Count; i++)
             {
 
                 values.Add(num + X[i]);
-
+                
             }
             return values;
         }
@@ -100,15 +101,15 @@ namespace SGGW.MR.Cieniowanie
     public class Curve
     {
 
-
+        public static int initial_size = 256;
         public List<double> X { get; set; }
         public List<double> Y { get; set; }
 
         public int Length { get { return X.Count; } }
         public Curve()
         {
-            this.X = new List<double>() { 0.0 };
-            this.Y = new List<double> (){ 0.0 };
+            this.X = new List<double>(initial_size) { 0.0 };
+            this.Y = new List<double> (initial_size){ 0.0 };
         }
 
         public void Scale(double num)
