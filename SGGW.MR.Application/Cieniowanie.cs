@@ -476,7 +476,7 @@ namespace SGGW.MR.Application
                         AppController.RawImage, AppController.NewWidthOfTheOutputImage, AppController.NewHeightOfTheOutputImage);
                 }
                 
-                result = AppController.ShadeImage(AppController.RawImage, AppController.Color1, AppController.Color2);
+                result = AppController.ShadeImage(result, AppController.Color1, AppController.Color2);
                 
                 AppController.OutputImage = new Bitmap(result);
                 ShadingPreviewIB.Image = AppController.OutputImage;
