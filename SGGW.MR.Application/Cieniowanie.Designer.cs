@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cieniowanie));
             this.ShadingDragAndDropIB = new System.Windows.Forms.PictureBox();
             this.MetroFooterPanel = new MetroFramework.Controls.MetroPanel();
+            this.metroTile1 = new MetroFramework.Controls.MetroTile();
             this.AutoSaveCheckBox = new MetroFramework.Controls.MetroCheckBox();
             this.SaveAsButton = new MetroFramework.Controls.MetroButton();
             this.CustomLocationTB = new MetroFramework.Controls.MetroTextBox();
@@ -58,7 +59,6 @@
             this.ShadingImagePanel = new MetroFramework.Controls.MetroPanel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.ShadingPreviewIB = new System.Windows.Forms.PictureBox();
-            this.metroTile1 = new MetroFramework.Controls.MetroTile();
             ((System.ComponentModel.ISupportInitialize)(this.ShadingDragAndDropIB)).BeginInit();
             this.MetroFooterPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AppTheme)).BeginInit();
@@ -73,7 +73,7 @@
             // 
             this.ShadingDragAndDropIB.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.ShadingDragAndDropIB.BackColor = System.Drawing.Color.White;
-            this.ShadingDragAndDropIB.Image = ((System.Drawing.Image)(resources.GetObject("ShadingDragAndDropIB.Image")));
+            this.ShadingDragAndDropIB.Image = global::SGGW.MR.Application.Properties.Resources.no_image_icon_3;
             this.ShadingDragAndDropIB.Location = new System.Drawing.Point(31, 5);
             this.ShadingDragAndDropIB.Margin = new System.Windows.Forms.Padding(4);
             this.ShadingDragAndDropIB.Name = "ShadingDragAndDropIB";
@@ -108,6 +108,18 @@
             this.MetroFooterPanel.VerticalScrollbarBarColor = true;
             this.MetroFooterPanel.VerticalScrollbarHighlightOnWheel = false;
             this.MetroFooterPanel.VerticalScrollbarSize = 10;
+            // 
+            // metroTile1
+            // 
+            this.metroTile1.ActiveControl = null;
+            this.metroTile1.Location = new System.Drawing.Point(593, 72);
+            this.metroTile1.Name = "metroTile1";
+            this.metroTile1.Size = new System.Drawing.Size(114, 43);
+            this.metroTile1.TabIndex = 12;
+            this.metroTile1.Text = "save";
+            this.metroTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroTile1.UseSelectable = true;
+            this.metroTile1.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
             // AutoSaveCheckBox
             // 
@@ -309,10 +321,10 @@
             // 
             // 
             this.ImageHeightTB.CustomButton.Image = null;
-            this.ImageHeightTB.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.ImageHeightTB.CustomButton.Location = new System.Drawing.Point(60, 1);
             this.ImageHeightTB.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ImageHeightTB.CustomButton.Name = "";
-            this.ImageHeightTB.CustomButton.Size = new System.Drawing.Size(19, 16);
+            this.ImageHeightTB.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.ImageHeightTB.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.ImageHeightTB.CustomButton.TabIndex = 1;
             this.ImageHeightTB.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -342,10 +354,10 @@
             // 
             // 
             this.ImageWidthTB.CustomButton.Image = null;
-            this.ImageWidthTB.CustomButton.Location = new System.Drawing.Point(53, 1);
+            this.ImageWidthTB.CustomButton.Location = new System.Drawing.Point(60, 1);
             this.ImageWidthTB.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ImageWidthTB.CustomButton.Name = "";
-            this.ImageWidthTB.CustomButton.Size = new System.Drawing.Size(19, 16);
+            this.ImageWidthTB.CustomButton.Size = new System.Drawing.Size(21, 21);
             this.ImageWidthTB.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.ImageWidthTB.CustomButton.TabIndex = 1;
             this.ImageWidthTB.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -420,10 +432,10 @@
             // 
             // 
             this.Color2TB.CustomButton.Image = null;
-            this.Color2TB.CustomButton.Location = new System.Drawing.Point(71, 2);
+            this.Color2TB.CustomButton.Location = new System.Drawing.Point(80, 2);
             this.Color2TB.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Color2TB.CustomButton.Name = "";
-            this.Color2TB.CustomButton.Size = new System.Drawing.Size(22, 19);
+            this.Color2TB.CustomButton.Size = new System.Drawing.Size(25, 25);
             this.Color2TB.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.Color2TB.CustomButton.TabIndex = 1;
             this.Color2TB.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -476,10 +488,10 @@
             // 
             // 
             this.Color1TB.CustomButton.Image = null;
-            this.Color1TB.CustomButton.Location = new System.Drawing.Point(71, 2);
+            this.Color1TB.CustomButton.Location = new System.Drawing.Point(80, 2);
             this.Color1TB.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Color1TB.CustomButton.Name = "";
-            this.Color1TB.CustomButton.Size = new System.Drawing.Size(22, 19);
+            this.Color1TB.CustomButton.Size = new System.Drawing.Size(25, 25);
             this.Color1TB.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.Color1TB.CustomButton.TabIndex = 1;
             this.Color1TB.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -555,18 +567,6 @@
             this.ShadingPreviewIB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ShadingPreviewIB.TabIndex = 2;
             this.ShadingPreviewIB.TabStop = false;
-            // 
-            // metroTile1
-            // 
-            this.metroTile1.ActiveControl = null;
-            this.metroTile1.Location = new System.Drawing.Point(593, 72);
-            this.metroTile1.Name = "metroTile1";
-            this.metroTile1.Size = new System.Drawing.Size(114, 43);
-            this.metroTile1.TabIndex = 12;
-            this.metroTile1.Text = "save";
-            this.metroTile1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.metroTile1.UseSelectable = true;
-            this.metroTile1.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
             // Cieniowanie
             // 
