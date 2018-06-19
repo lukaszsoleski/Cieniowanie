@@ -472,9 +472,11 @@ namespace SGGW.MR.Application
                 Bitmap result = null;
                 if (AppController.ToNewResolution)
                 {
-                    result = AppController.ResizeImage(                        
+                    result = AppController.ResizeImage(
                         AppController.RawImage, AppController.NewWidthOfTheOutputImage, AppController.NewHeightOfTheOutputImage);
                 }
+                else
+                    result = AppController.RawImage;
                 
                 result = AppController.ShadeImage(result, AppController.Color1, AppController.Color2);
                 
