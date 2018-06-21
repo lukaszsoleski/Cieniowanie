@@ -59,7 +59,7 @@ namespace SGGW.MR.Cieniowanie
                     int g = p.G;
                     int b = p.B;
 
-                    //algorithm called 'luma' is less dirty then simple average
+               
                     int gray = (int)((r * .3) + (g * .59) + (b * .11));
 
                     //set new pixel value

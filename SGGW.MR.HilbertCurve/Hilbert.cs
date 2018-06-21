@@ -16,9 +16,6 @@ namespace SGGW.MR.Cieniowanie
         private static Curve cur_curve;
         public static Curve CurvePoints(int depth)
         {
-
-
-
             if (depth <= 0)
             {
                 cur_curve = new Curve();
@@ -28,7 +25,7 @@ namespace SGGW.MR.Cieniowanie
             {
 
                 Curve temp = CurvePoints(depth - 1);
-                Curve prev_curve = new Curve { X = temp.X, Y = temp.Y };// Create new object instead of copying referece. 
+                Curve prev_curve = new Curve { X = temp.X, Y = temp.Y };
 
 
                 cur_curve.X = CalcXCoordinates(prev_curve);
@@ -43,7 +40,7 @@ namespace SGGW.MR.Cieniowanie
         #region new coordinates of points
         private static List<double> CalcXCoordinates(Curve prev)
         {
-            List<double> XCoordinates = new List<double>(Curve.initial_size);
+            List<double> XCoordinates = new List<double>(prev.X.Count * 4 );
             XCoordinates.AddRange(IncreaseValues(prev.Y, -0.5));
             XCoordinates.AddRange(IncreaseValues(prev.X, -0.5));
             XCoordinates.AddRange(IncreaseValues(prev.X, 0.5));
@@ -55,7 +52,7 @@ namespace SGGW.MR.Cieniowanie
 
         private static List<double> CalcYCoordinates(Curve prev)
         {
-            List<double> YCoordinates = new List<double>(Curve.initial_size);
+            List<double> YCoordinates = new List<double>(prev.Y.Count*3);
 
             YCoordinates.AddRange(IncreaseValues(prev.X, -0.5));
 
@@ -71,7 +68,7 @@ namespace SGGW.MR.Cieniowanie
         #region HelperMethods
         private static ICollection<double> DecreaseValues(List<double> X, double num)
         {
-            ICollection<double> values = new List<double>(Curve.initial_size);
+            ICollection<double> values = new List<double>(X.Count);
             for (int i = 0; i < X.Count; i++)
             {
                 values.Add(num - X[i]);
@@ -82,7 +79,7 @@ namespace SGGW.MR.Cieniowanie
 
         private static ICollection<double> IncreaseValues(List<double> X, double num)
         {
-            ICollection<double> values = new List<double>(Curve.initial_size);
+            ICollection<double> values = new List<double>(X.Count);
 
             for (int i = 0; i < X.Count; i++)
             {
