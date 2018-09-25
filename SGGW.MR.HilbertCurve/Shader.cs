@@ -35,7 +35,7 @@ namespace SGGW.MR.Cieniowanie
             // Represents hilbert curve coordinates
             Curve curve = Hilbert.Discretization(depth);
             
-            float [,] pixel_brihgtness = GetPixelsBrightness(bitmap);
+            float [,] pixels_brightness = GetPixelsBrightness(bitmap);
 
             byte pixel;
 
@@ -47,17 +47,17 @@ namespace SGGW.MR.Cieniowanie
             {
                 x = (int)curve.X[i];
                 y = (int)curve.Y[i];
-
+                
                 if( y < img.Height && x < img.Width)
                 {
-                  if (pixel_brihgtness[y,x] + E <= 0.5)
+                  if (pixels_brightness[y,x] + E <= 0.5)
                   {
                       pixel = 0;
                   }else
                   {
                       pixel = 1;
                   }
-                  E = pixel_brihgtness[y, x] - pixel + E;
+                  E = pixels_brightness[y, x] - pixel + E;
               
                   c = (pixel > 0) ? color1 : color2;
                   img.SetPixel(x, y, c);

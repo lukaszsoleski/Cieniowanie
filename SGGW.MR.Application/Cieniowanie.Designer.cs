@@ -378,6 +378,7 @@
             this.ImageWidthTB.UseSelectable = true;
             this.ImageWidthTB.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.ImageWidthTB.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.ImageWidthTB.Click += new System.EventHandler(this.ImageWidthTB_Click);
             this.ImageWidthTB.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ImageScale_OnEnter);
             this.ImageWidthTB.Leave += new System.EventHandler(this.ValidateDimensionTB);
             // 
@@ -386,18 +387,18 @@
             this.metroLabel6.AutoSize = true;
             this.metroLabel6.Location = new System.Drawing.Point(478, 50);
             this.metroLabel6.Name = "metroLabel6";
-            this.metroLabel6.Size = new System.Drawing.Size(50, 20);
+            this.metroLabel6.Size = new System.Drawing.Size(45, 20);
             this.metroLabel6.TabIndex = 13;
-            this.metroLabel6.Text = "Height";
+            this.metroLabel6.Text = "Width";
             // 
             // metroLabel5
             // 
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.Location = new System.Drawing.Point(483, 13);
             this.metroLabel5.Name = "metroLabel5";
-            this.metroLabel5.Size = new System.Drawing.Size(45, 20);
+            this.metroLabel5.Size = new System.Drawing.Size(50, 20);
             this.metroLabel5.TabIndex = 12;
-            this.metroLabel5.Text = "Width";
+            this.metroLabel5.Text = "Height";
             // 
             // metroLabel4
             // 
@@ -567,6 +568,7 @@
             this.ShadingPreviewIB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ShadingPreviewIB.TabIndex = 2;
             this.ShadingPreviewIB.TabStop = false;
+            this.ShadingPreviewIB.Click += new System.EventHandler(this.ShadingPreviewIB_Click);
             // 
             // Cieniowanie
             // 

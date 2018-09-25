@@ -472,6 +472,7 @@ namespace SGGW.MR.Application
                 Bitmap result = null;
                 if (AppController.ToNewResolution)
                 {
+
                     result = AppController.ResizeImage(
                         AppController.RawImage, AppController.NewWidthOfTheOutputImage, AppController.NewHeightOfTheOutputImage);
                 }
@@ -503,8 +504,15 @@ namespace SGGW.MR.Application
             AppController.AutoSave = AutoSaveCheckBox.Checked;
         }
 
+        private void ShadingPreviewIB_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void ImageWidthTB_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
